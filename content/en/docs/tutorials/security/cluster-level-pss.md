@@ -223,7 +223,7 @@ following:
         kind: ClusterConfiguration
         apiServer:
             extraArgs:
-              admission-control-config-file: /etc/config/cluster-level-pss.yaml
+              admission-control-config-file: /tmp/pss/cluster-level-pss.yaml 
             extraVolumes:
               - name: accf
                 hostPath: /etc/config
